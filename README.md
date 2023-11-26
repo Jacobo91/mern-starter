@@ -1,6 +1,10 @@
 # MERN Starter
 
-the aim with this starter is to have a fully configures starter project to begin creating a MERN Stack application.
+the aim with this starter is to have a fully configured starter project to begin creating a MERN Stack application.
+
+it uses lazy and suspense to load components to Routes in a way that is more performant.
+
+lazy  load image can be used to load images lazily and add effect to it while it load (for performance and user experience)
 
 ## Instructions:
 
