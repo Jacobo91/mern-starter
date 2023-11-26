@@ -13,6 +13,8 @@ the aim with this starter is to have a fully configures starter project to begin
 3. run npm install @tanstack/react-query
 4. run npm install axios
 5. npm i @tanstack/react-query-devtools
+6. npm i --save react-lazy-load-image-component (https://www.npmjs.com/package/react-lazy-load-image-component)
+7. npm install react-player (https://www.npmjs.com/package/react-player)
 
 ### /server:
 
@@ -28,7 +30,11 @@ the aim with this starter is to have a fully configures starter project to begin
 
 change <username> and <password> for the corresponding ones to your cluster
 
-### script:
+### scripts
 
+### /client:
+-npm run dev
+
+#### /server:
 - npm run dev (nodemon server.js)
 - npm start (node server.js)
