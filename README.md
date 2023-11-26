@@ -12,6 +12,7 @@ the aim with this starter is to have a fully configures starter project to begin
 2. run npm install react-router-dom
 3. run npm install @tanstack/react-query
 4. run npm install axios
+5. npm i @tanstack/react-query-devtools
 
 ### /server:
 
