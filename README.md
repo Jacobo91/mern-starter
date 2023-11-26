@@ -4,7 +4,7 @@ the aim with this starter is to have a fully configured starter project to begin
 
 it uses lazy and suspense to load components to Routes in a way that is more performant.
 
-lazy  load image can be used to load images lazily and add effect to it while it load (for performance and user experience)
+lazy  load image can be used to load images lazily and add effect to it while it loads (for performance and user experience)
 
 ## Instructions:
 
@@ -32,7 +32,7 @@ lazy  load image can be used to load images lazily and add effect to it while it
 
 # /server/.env
 
-change <username> and <password> for the corresponding ones to your cluster
+change username and password for the corresponding ones to your cluster
 
 ### scripts
 
