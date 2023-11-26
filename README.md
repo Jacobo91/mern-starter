@@ -20,12 +20,6 @@ lazy  load image can be used to load images lazily and add effect to it while it
 6. npm i --save react-lazy-load-image-component (https://www.npmjs.com/package/react-lazy-load-image-component)
 7. npm install react-player (https://www.npmjs.com/package/react-player)
 
-#### Hooks
-
-1. GetAPI is a hook provided to get data from api. options object is provided so you can enter parameters like refetchInterval for example
-    for more params please visit: https://tanstack.com/query/v3/docs/react/reference/useQuery.
-    key and parameter are for tanstack to recognize data and use the one stored in the cache instead of refetching it.
-
 ### /server:
 
 1. run npm i express  

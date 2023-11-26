@@ -15,14 +15,14 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Suspense fallback={<Loading/>}>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/page2' element={<Page2/>}/>
-          <Route path='/page3' element={<Page3/>}/>
-          <Route path='*' element={<PageNotFound/>}/>
-        </Routes>
-      </Suspense>
+        <Suspense fallback={<Loading/>}>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/page2' element={<Page2/>}/>
+            <Route path='/page3' element={<Page3/>}/>
+            <Route path='*' element={<PageNotFound/>}/>
+          </Routes>
+        </Suspense>
       <ReactQueryDevtools initialIsOpen={false} />
     </div>
   )
