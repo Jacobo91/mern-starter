@@ -21,4 +21,13 @@ the aim with this starter is to have a fully configures starter project to begin
 4. run npm i mongoose
 5. run npm i dotenv
 6. run npm i cors
-# mern-starter
+
+
+# /server/.env
+
+change <username> and <password> for the corresponding ones to your cluster
+
+### script:
+
+- npm run dev (nodemon server.js)
+- npm start (node server.js)

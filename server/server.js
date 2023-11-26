@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { PORT } from "./config.js";
+import mongoose from "mongoose";
 
 const app = express();
 
@@ -12,6 +13,13 @@ app.use(cors({
     credentials: true, // If you need to send credentials with the request
 }));
 
-app.listen(PORT, () => {
-    console.log(`Server running on port: ${PORT}`);
-});
+mongoose
+.connect(process.env.mongoDBURL)
+.then(() => {
+        app.listen(PORT, () => {
+            console.log(`Server running on port: ${PORT}`);
+        });
+    })
+    .catch((error) => {
+        console.log(error);
+    })
