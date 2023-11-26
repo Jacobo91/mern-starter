@@ -25,7 +25,7 @@ lazy  load image can be used to load images lazily and add effect to it while it
 1. run npm i express  
 2. run npm i mongodb
 3. run npm i nodemon
-4. run npm i mongoose
+4. run npm i mongoose (https://mongoosejs.com/docs/queries.html)
 5. run npm i dotenv
 6. run npm i cors
 
