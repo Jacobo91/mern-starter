@@ -8,13 +8,20 @@ lazy  load image can be used to load images lazily and add effect to it while it
 
 ## Instructions:
 
+## /MERN_STARTER:
+
+1. run rm -rf .git
+
+
 ## Install Dependencies:
 
 ### /client:
 
 1. run npm install to install all node_modules
-2. run npm install react-router-dom @tanstack/react-query axios @tanstack/react-query-devtools react-player
-3. npm i --save react-lazy-load-image-component 
+2. run npm install react-router-dom @tanstack/react-query axios @tanstack/react-query-devtools react-player 
+3. npm i --save react-lazy-load-image-component
+4. npm install --save-dev @types/react-lazy-load-image-component
+ 
 
 ### /server:
 
